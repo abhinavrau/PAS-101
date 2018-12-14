@@ -141,24 +141,24 @@ start command:   JAVA_OPTS="-agentpath:$PWD/.java-buildpack/open_jdk_jre/bin/jvm
 #0   running   2018-12-14T06:02:49Z   0.0%   47.6M of 1G   155.8M of 1G
 ----
 
-. Open PCF Apps Manager in a browser and navigate to your Space and you should see the workshop application running.
-+
+Open PCF Apps Manager in a browser and navigate to your Space and you should see the workshop application running.
+
 image::route.png[]
-. Visit the application in your browser by clicking on the URL under *Route* that was generated (It is also an output of 'cf push'):
-+
-image::lab-java.png[]
+
+Visit the application in your browser by clicking on the URL under *Route* that was generated (It is also an output of 'cf push'):
+
+image::java.png[]
 
 == Interact with App from CF CLI
 
-. Get information about the currently deployed application using CLI apps command:
-+
+Get information about the currently deployed application using CLI apps command:
+
 ----
 $ cf apps
 ----
-+
 
-. Get information about running instances, memory, CPU, and other statistics using CLI instances command
-+
+Get information about running instances, memory, CPU, and other statistics using CLI instances command
+
 ----
 $ cf app workshop
 ----
