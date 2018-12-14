@@ -23,10 +23,15 @@ the Cloud Foundry CLI for your operating system.
     $ cf login -a <your api endpoint>
 
 
-Follow the prompts to enter your username and password. If you have multiple Orgs or spaces, you will be asked to select
+. Follow the prompts to enter your username and password. If you have multiple Orgs or spaces, you will be asked to select
  an Org and space where applications should be deployed.
 
+. Download the code
+
+       git clone https://github.com/abhinavrau/PAS-101.git
+
 == Build It
+
 
 Linux/macOS
 
